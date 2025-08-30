@@ -12,17 +12,23 @@
                 margin: 0;
             }
 
+            .wrapper {
+                min-height: 100%;
+                flex-direction: column;
+            }
+
             .footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
+                position: relative;
+                top: 150px;
                 height: 30px;
                 background-color: #474747;
                 text-align: center;
+                line-height: 30px;
             }
         </style>
     </head>
     <body>
+        <div class="wrapper">
         <span style="color:#888"> session_log_0713</span>
         <br>
         <br>
@@ -60,7 +66,7 @@
         <span style="color:#39f">System:</span> Task execution started.<br>
         <br>
         <span style="color:#888">[23:52:20]</span> <span style="color:#39f">System:</span> Task completed<br>
-
+        </div>
         <div class="footer">
             This is a mock website created only for the NCCU CS × RMI camp event. It is not affiliated with official NCCU systems or services.
         </div>
